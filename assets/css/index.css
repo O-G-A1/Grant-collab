@@ -9,4 +9,117 @@ html, body{
     width: 100%;
     height: 100%;
 }
+@media all and (max-width:800px){
+    nav > i{
+        color: red;
+        font-size: 40px;
+    }
+    .grantnav{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        
+    }
+    .as{
+        margin-left: auto;
+        align-self: last baseline;
+    }
+    .as>a{
+        margin-left: 10px;
+        text-decoration: none;
+        color: red;
+        font-weight: 600;
+    }
+    .usa{
+        align-self: center;
+        font-size: 1.7rem;
+        color: darkblue;
+        font-weight: 600;
+    }
+    .fa{
+        align-self: center;
+    }
+    h5{
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    .fa>h5:nth-of-type(2){
+        color: red;
+    }
+}
+.formintro{
+    background-color: blue;
+    padding: 30px;
+    margin: 0 auto;
+}
+.formintro h3{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin-top: 30px;
+}
+.formintro h4{
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    
+}
+.class{
+    display: flex;
+    flex-direction: column;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: darkgray;
+    padding: 30px;
+    max-width: 90%;
+    margin: 1px auto;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: darkgray;
+    padding: 30px;
+    max-width: 90%;
+    margin: 1px auto;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 14px;
+    
+}
 
+input{
+    height: 33px;
+    font-size: 1rem;
+
+}
+select{
+    height: 33px;
+    font-size: 1rem;
+}
+p{
+    font-size: 1.4rem;
+    padding: 30px;
+
+}
+label{
+    font-size: 1.2rem;
+}
+p span{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+label span{
+    color: red;
+}
