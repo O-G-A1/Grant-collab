@@ -38,9 +38,18 @@
 a{
     text-decoration: none;
 }
+<<<<<<< HEAD
 .as a{
     color: red;
     font-weight: 600;
+=======
+    
+
+
+    /* landing page */
+div.landingpage1{
+    margin-top: 50px;
+>>>>>>> 44c04b1bf9e4bec0b47a5133a7f7d4673d42b3b5
 }
 .as{
     display: flex;
@@ -98,6 +107,7 @@ a{
     gap: 5px;
     border-radius: 20px;
 }
+<<<<<<< HEAD
 .form3{
     display: flex;
     flex-direction: column;
@@ -133,6 +143,16 @@ label span{
     display: flex;
     flex-direction: row;
     gap: 15px;
+=======
+
+/* footer 2  */
+div.footer2{
+    margin-top: 30px;
+    background-color: rgb(43, 43, 109);
+    height: 300px;
+}
+
+>>>>>>> 44c04b1bf9e4bec0b47a5133a7f7d4673d42b3b5
 
 }
 .formgroup input{
