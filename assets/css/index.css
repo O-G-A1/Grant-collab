@@ -8,16 +8,11 @@
 body{
     background-color: white;
 }
-a{
-    text-decoration: none;
-}
+
     
 
 
     /* landing page */
-div.landingpage1{
-    margin-top: 50px;
-}
 div.landingpage1 img{
     width: 100%;
     height: 300px;
@@ -81,6 +76,9 @@ div.content3{
     text-align: center;
 
 }
+div.content3 a{
+    text-decoration: none;
+}
 #applynow{
     color: white;
     background-color: rgb(228, 63, 63);
@@ -123,6 +121,7 @@ div.footer1 a{
     display: flex;
     flex-direction: column;
     color: rgb(58, 54, 54);
+    text-decoration: none;
 }
 #connect{
     border-top: 1px solid rgb(109, 105, 105);
